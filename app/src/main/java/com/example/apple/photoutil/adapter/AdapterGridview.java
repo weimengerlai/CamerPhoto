@@ -70,7 +70,6 @@ public class AdapterGridview extends BaseAdapter {
             viewHolder = (ViewHolder) convertView.getTag();
         }
 
-//        viewHolder.iv_adapter_imagelist_photo.setImageResource(R.drawable.load_img);
 
         //加载图片
         Ion.with(context)
@@ -88,6 +87,7 @@ public class AdapterGridview extends BaseAdapter {
                 viewHolder.iv_adapter_imagelist_select.setImageResource(R.mipmap.patient_icon_select);
                 break;
         }
+
 
 
         //设置选中或者取消图片的时候用
