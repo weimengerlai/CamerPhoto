@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fb_background"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_activity_test"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="相册获取图片"/>
+
+    <Button
+        android:id="@+id/btn_activity_cammer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="拍照获取图片"/>
+
+    <TextView
+        android:id="@+id/tv_activity_test"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hhhhh"/>
+
+</LinearLayout>

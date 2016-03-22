@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.apple.photoutil.MainActivity"
+    android:background="@color/fb_background">
+
+    <GridView
+        android:id="@+id/grid_image_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fb_background"
+        android:scrollbars="none"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:horizontalSpacing="6dp"
+        android:verticalSpacing="6dp"
+        android:layout_marginTop="10dp"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:layout_above="@+id/rl_send_image">
+
+    </GridView>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_send_image"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_lookbigimage_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:textColor="#000000"
+            android:text="发送(0)"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
