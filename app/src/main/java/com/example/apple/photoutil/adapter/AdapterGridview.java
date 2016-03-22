@@ -41,6 +41,8 @@ public class AdapterGridview extends BaseAdapter {
         this.notifyDataSetChanged();
     }
 
+
+
     @Override
     public int getCount() {
         return imageUrlList.size();
